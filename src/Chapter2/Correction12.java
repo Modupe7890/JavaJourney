@@ -1,7 +1,7 @@
 package Chapter2;
 import java.util.Scanner;
 
-public class Exercise12 {
+public class Correction12 {
     // A Program that asks the user to enter two integers,
     // from the user and prints their sum, product, difference
     // and quotient (division).
@@ -15,20 +15,21 @@ public class Exercise12 {
         int Sum;
         int Difference;
 
-        System.out.print("Enter the first integer: ");
+        System.out.println("Enter the first integer: ");
         number1 = input.nextInt();
-        System.out.print("Enter the second integer: ");
+        System.out.println("Enter the second integer: ");
         number2 = input.nextInt();
 
 
         Product = number1 * number2;
-                System.out.printf("%d%n Product = ", Product);
+        System.out.printf("%s%n Product = ", Product);
         Quotient = number1 / number2;
-                System.out.printf("%d%n Quotient = ", Quotient);
+        System.out.printf("%s%n Quotient = ", Quotient);
         Sum = number1 + number2;
-                System.out.printf("%d%n Sum = ", Sum);
+        System.out.printf("%s%n Sum = ", Sum);
         Difference = number1 - number2;
-                System.out.printf("%d%n Difference = ", Difference);
+        System.out.printf("%s%n Difference = ", Difference);
 
-    }
 }
+}
+
