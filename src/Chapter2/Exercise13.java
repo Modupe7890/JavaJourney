@@ -14,10 +14,9 @@ public class Exercise13 {
         number2= input.nextInt();
 
             if (number1 == number2);
-            System.out.printf("%s%n The number is equal" );
-
+            System.out.printf("%d%n The number is equal" );
 
             if(number1 > number2);
-            System.out.printf("%s%n number1 is greater than number2" );
+            System.out.printf("%d%n number1 is greater than number2" );
     }
 }

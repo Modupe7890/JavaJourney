@@ -22,13 +22,13 @@ public class Exercise12 {
 
 
         Product = number1 * number2;
-                System.out.printf("%d%n Product = ", Product);
+                System.out.printf("Product = %d%n", Product);
         Quotient = number1 / number2;
-                System.out.printf("%d%n Quotient = ", Quotient);
+                System.out.printf("Quotient = %d%n", Quotient);
         Sum = number1 + number2;
-                System.out.printf("%d%n Sum = ", Sum);
+                System.out.printf("Sum = %d%n", Sum);
         Difference = number1 - number2;
-                System.out.printf("%d%n Difference = ", Difference);
+                System.out.printf("Difference = %d%n", Difference);
 
     }
 }
