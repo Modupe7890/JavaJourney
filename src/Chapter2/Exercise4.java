@@ -5,7 +5,8 @@ public class Exercise4 {
         Scanner input = new Scanner(System.in);
         int number = 8;
 
-        if (number !=7);
-        System.out.println("The variable number is not equal to 7");
+        if (number!=7){
+            System.out.println("The variable number is not equal to 7");
+        }
     }
 }

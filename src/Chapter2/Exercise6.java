@@ -5,7 +5,8 @@ public class Exercise6 {
         Scanner input = new Scanner(System.in);
 
         int c = 7;
-        if(c>=7);
-        System.out.println("c is equal to or greater than 7");
+        if(c>=7){
+            System.out.println("c is equal to or greater than 7");
+        }
     }
 }
