@@ -17,9 +17,17 @@ public class Exercise13 {
             if (number1 == number2) {
                 System.out.print("The number is equal");
             }
-
             if(number1 > number2) {
-                System.out.print("Number1 is greater");
+                System.out.printf("Number1 is greater %d%n", number1);
+            }
+            if (number1<number2){
+                System.out.printf("Number1 is smaller %d%n", number1);
+            }
+            if (number2>number1){
+                System.out.printf("Number2 is greater %d%n", number2);
+            }
+            if (number2<number1){
+                System.out.printf("Number2 is smaller %d%n", number2);
             }
     }
 }
