@@ -5,6 +5,7 @@ public class Exercise12 {
     // A Program that asks the user to enter two integers,
     // from the user and prints their sum, product, difference
     // and quotient (division).
+    // Chapter2 Exercise 2.15
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 

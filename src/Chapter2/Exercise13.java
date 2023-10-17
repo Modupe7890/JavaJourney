@@ -2,6 +2,7 @@ package Chapter2;
 import java.util.Scanner;
 public class Exercise13 {
     // A program that compares two integers
+    // Chapter2 Exercise 2.16
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -13,10 +14,12 @@ public class Exercise13 {
         System.out.print("Enter the second Integer: ");
         number2= input.nextInt();
 
-            if (number1 == number2);
-            System.out.printf("%d%n The number is equal" );
+            if (number1 == number2) {
+                System.out.print("The number is equal");
+            }
 
-            if(number1 > number2);
-            System.out.printf("%d%n number1 is greater than number2" );
+            if(number1 > number2) {
+                System.out.print("Number1 is greater");
+            }
     }
 }
