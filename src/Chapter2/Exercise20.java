@@ -2,6 +2,7 @@ package Chapter2;
 //Exercise2.24
 import java.util.Scanner;
 public class Exercise20 {
+    // A program that accepts 5 integers and displays the largest or smallest
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
