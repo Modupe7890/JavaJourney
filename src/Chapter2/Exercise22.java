@@ -14,9 +14,11 @@ public class Exercise22 {
         System.out.print("Enter the second integer: ");
         number2 = input.nextInt();
 
-
+        if (number1 % number2 == 0){
+            System.out.println("The first number is a multiple of the second number");
+        }
+        if (number1 % number2 == 1){
+            System.out.println("The first number is not a multiple of the second number");
+        }
     }
-
-
-
 }
