@@ -1,7 +1,7 @@
 package Chapter3;
-// Account class that contains a name instance vaviable
+// Account class that contains a name instance variable
 // and method to set and get its value
-public class Account_Fig3_1 {
+public class Account {
     private String name; // instance variable
 
     // method to set the name in the object

@@ -6,11 +6,13 @@ public class AccountTest {
         // Create a scanner object to obtain input from the command window
         Scanner input = new Scanner (System.in);
         // create an Account and assign it to myAccount
+
         Account myAccount = new Account();
         // Display initial value of name (null)
         System.out.printf("Initial name is: %s%n%%n", myAccount.getName());
         // prompt for and read me
         System.out.println("Please enter the name:");
+
         String theName = input.nextLine(); // read a line of text
         myAccount.setName(theName); // put theName in myAccount
         System.out.println(); // output a blank line
