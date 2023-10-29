@@ -9,7 +9,7 @@ public class AccountTest {
 
         Account myAccount = new Account();
         // Display initial value of name (null)
-        System.out.printf("Initial name is: %s%n%%n", myAccount.getName());
+        System.out.printf("Initial name is: %s%n", myAccount.getName());
         // prompt for and read me
         System.out.println("Please enter the name:");
 
