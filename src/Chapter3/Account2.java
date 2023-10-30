@@ -14,8 +14,7 @@ public class Account2 {
         this.name = name;
     }
     // method to retrieve the name
-
-
+    
     public String getName() {
         return name;
     }
