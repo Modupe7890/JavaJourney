@@ -1,5 +1,4 @@
 package Chapter3;
-import java.util.Arrays;
 import java.util.Scanner;
 public class AccountTest {
     public static void main(String[] args) {
