@@ -4,12 +4,16 @@ public class Account {
     private double balance;
     public Account (String name, double balance) {
         this.name = name;
-    if (balance >0.0)
+
+        if (balance >0.0) {
         this.balance = balance;
+        }
     }
     public void deposit(double depositAmount){
-        if (depositAmount>0.0)
+        if (depositAmount>0.0){
             balance = balance + depositAmount;
+        }
+
     }
     public double getBalance() {
         return balance;
