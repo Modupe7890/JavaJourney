@@ -20,7 +20,7 @@ public class Account {
            System.out.println("Transaction Successful");
        }
        if (withdrawAmount<=0&&withdrawAmount>balance){
-           withdrawAmount =withdrawAmount - balance;
+           withdrawAmount =withdrawAmount-balance;
            System.out.println("Withdrawal Amount Exceeded Account Balance");
        }
     }
