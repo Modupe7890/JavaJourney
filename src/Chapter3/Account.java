@@ -9,11 +9,20 @@ public class Account {
         this.balance = balance;
         }
     }
-    public void deposit(double depositAmount){
-        if (depositAmount>0.0){
+    public void deposit(double depositAmount) {
+        if (depositAmount > 0.0) {
             balance = balance + depositAmount;
         }
-
+    }
+    public void withdraw(double withdrawAmount){
+       if (withdrawAmount>0&&withdrawAmount<=balance){
+           withdrawAmount = withdrawAmount - balance;
+           System.out.println("Transaction Successful");
+       }
+       if (withdrawAmount<=0&&withdrawAmount>balance){
+           withdrawAmount =withdrawAmount - balance;
+           System.out.println("Withdrawal Amount Exceeded Account Balance");
+       }
     }
     public double getBalance() {
         return balance;
