@@ -1,39 +1,49 @@
 package Chapter3;
 
 public class Invoice {
-    private String invoiceNumber;
-    private String description;
-    private int itemPurchased;
-    private double itemPrice;
-    public Invoice (String invoiceNumber, String description,int itemPurchased, double itemPrice) {
-        this.invoiceNumber = invoiceNumber;
-        this.description = description;
-        this.itemPurchased = itemPurchased;
-        this.itemPrice = itemPrice;
+    private String partNumber;
+    private String partDescription;
+    private int quantityPurchased;
+    private double itemPerPrice;
+    private double invoiceAmount;
+    public Invoice (String partNumber, String partDescription,int quantityPurchased, double itemPerPrice, double invoiceAmount) {
+        this.partNumber = partNumber;
+        this.partDescription = partDescription;
+        if (quantityPurchased<0){
+            this.quantityPurchased = quantityPurchased;
+        }
+        if (itemPerPrice<0.0) {
+            this.itemPerPrice = itemPerPrice;
+        }
+        this.invoiceAmount = invoiceAmount;
     }
 
-        public void setInvoiceNumber (String invoiceNumber){
-            this.invoiceNumber = invoiceNumber;
+        public void setPartNumber (String partNumber){
+            this.partNumber = partNumber;
         }
-        public String getInvoiceNumber() {
-            return invoiceNumber;
+        public String getPartNumber() {
+            return partNumber;
         }
-        public void setDescription (String description){
-            this.description = description;
+        public void setPartDescription (String partDescription){
+            this.partDescription = partDescription;
         }
-        public String getDescription() {
-            return description;
+        public String getPartDescription() {
+            return partDescription;
         }
-        public void setItemPurchased (int itemPurchased){
-            this.itemPurchased = itemPurchased;
+        public void setQuantityPurchased (int quantityPurchased){
+            this.quantityPurchased = quantityPurchased;
         }
-        public int getItemPurchased() {
-            return itemPurchased;
+        public int geQuantityPurchased() {
+            return quantityPurchased;
         }
-        public void setItemPrice (double itemPrice){
-            this.itemPrice = itemPrice;
+        public void setItemPerPrice (double itemPerPrice){
+            this.itemPerPrice = itemPerPrice;
         }
-        public double getItemPrice(){
-            return itemPrice;
+        public double getItemPerPrice(){
+            return itemPerPrice;
+        }
+        public double setInvoiceAmount (double invoiceAmount){
+        this.invoiceAmount = quantityPurchased * itemPerPrice;;
+            return invoiceAmount;
         }
 }
