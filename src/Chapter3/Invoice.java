@@ -6,7 +6,7 @@ public class Invoice {
     private int quantityPurchased;
     private double itemPerPrice;
     private double invoiceAmount;
-    public Invoice (String partNumber, String partDescription,int quantityPurchased, double itemPerPrice, double invoiceAmount) {
+    public Invoice (String partNumber, String partDescription, int quantityPurchased, double itemPerPrice, double invoiceAmount) {
         this.partNumber = partNumber;
         this.partDescription = partDescription;
         if (quantityPurchased<0){
