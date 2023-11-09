@@ -14,7 +14,7 @@ public class Division {
         num2 = input.nextInt();
 
         divide = num1/num2;
-        System.out.printf("The Answer is "+divide);
+        System.out.printf("Division = %d%n ",divide);
     }
 
 
