@@ -2,7 +2,7 @@ package Chapter2;
 // Making a difference Question 2
 // Exercise 2.34
 import java.util.Scanner;
-public class MakingDiff2 {
+public class GrowthPopulation {
     // A program that calculate the world growth population
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);

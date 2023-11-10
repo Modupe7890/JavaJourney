@@ -2,7 +2,7 @@ package Chapter2;
 // Making a Difference Question 1
 //Exercise 2.33
 import java.util.Scanner;
-public class MakingDiff1 {
+public class BodyMassIndex {
     // A program that calculate the BMI of a person
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
