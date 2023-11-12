@@ -42,7 +42,8 @@ public class HeartRate{
     this.targetHeartRate = maxHeartRate * 0.5;
     }
 
-    public double getTargetHeartRate() {return targetHeartRate;}
+    public double getTargetHeartRate() {
+        return targetHeartRate;
+    }
 
 }
-
