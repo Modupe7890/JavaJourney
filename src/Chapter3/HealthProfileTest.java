@@ -38,13 +38,7 @@ public class HealthProfileTest {
         System.out.println("Date of Birth " +dateOfBirth);
         System.out.println("Age "+calculateAge);
         System.out.println("BMI is "+bodyMassIndex);
-
         System.out.println("Maximum Heart Rate "+maxHeartRate);
         System.out.println("Targeted Heart Rate "+targetHeartRate);
-
-
-
-
-
     }
 }
