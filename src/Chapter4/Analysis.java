@@ -20,17 +20,18 @@ public class Analysis {
             // if...else is nested in the while statement
             if (result == 1){
                 passes = passes + 1;
-                else
-                    failures = failures + 1;
+            }
+            else{
+                failures = failures + 1;
                 // increment studentCounter so loop eventually terminates
                 studentCounter = studentCounter + 1;
+                // termination phase; prepare and display results
+                System.out.printf("Passed: %d%nFailed: %d%n", passes, failures);
             }
-            // termination phase; prepare and display results
-            System.out.printf("Passed: %d%nFailed: %d%n", passes, failures);
-
             // determine whether more than 8 students passed
-            if (passes > 8)
+            if (passes > 8){
                 System.out.println("Bonus to instructor!");
+            }
 
         }
     }

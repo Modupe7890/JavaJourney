@@ -32,9 +32,10 @@ public class ClassAverageSenti {
             System.out.printf("%nTotal of the %d grades entered is %d%n",gradeCounter, total);
             System.out.printf("Class average is %.2f%n", average);
         }
-        else
+        else{
             // no grades were entered, so output appropriate message
             System.out.println("No grades were entered");
+        }
 
     }
 }
