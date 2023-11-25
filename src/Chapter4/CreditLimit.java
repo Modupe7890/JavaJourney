@@ -36,6 +36,27 @@ public class CreditLimit {
     }
     public int getTotalCreditsApplied() {
         return totalCreditsApplied;
+    }
+}
+    public void setTotalCreditsApplied(int totalCreditsApplied) {
+        this.totalCreditsApplied = totalCreditsApplied;
+    }
+    public int getCreditLimit() {
+        return creditLimit;
+    }
+    public void setCreditLimit(int creditLimit) {
+        this.creditLimit = creditLimit;
+    }
+    public int calculateNewBalance()
+    {
+        newBalance = beginingBalance + totalItemsCharged - totalCreditsApplied;
+        return newBalance;
+    }
+    public void checkCreditLimit()
+    {
+        if(newBalance > creditLimit)
+            System.out.print("Credit Limit Exceeded");
+    }
 
 
 }
