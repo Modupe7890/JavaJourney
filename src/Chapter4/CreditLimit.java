@@ -16,5 +16,26 @@ public class CreditLimit {
         this.totalCreditsApplied = totalCreditsApplied;
         this.creditLimit = creditLimit;
     }
+    public int getAccountNumber() {
+        return accountNumber;
+    }
+    public void setAccountNumber(int accountNumber) {
+        this.accountNumber = accountNumber;
+    }
+    public int getBeginingBalance() {
+        return beginingBalance;
+    }
+    public void setBeginingBalance(int beginingBalance) {
+        this.beginingBalance = beginingBalance;
+    }
+    public int getTotalItemsCharged() {
+        return totalItemsCharged;
+    }
+    public void setTotalItemsCharged(int totalItemsCharged) {
+        this.totalItemsCharged = totalItemsCharged;
+    }
+    public int getTotalCreditsApplied() {
+        return totalCreditsApplied;
+
 
 }
