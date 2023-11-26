@@ -2,16 +2,16 @@ package Chapter4;
 
 public class CreditLimit {
     private int accountNumber;
-    private int beginingBalance;
+    private int startBalance;
     private int totalItemsCharged;
     private int totalCreditsApplied;
     private int creditLimit;
     private int newBalance;
-    public CreditLimit(int accountNumber, int beginingBalance, int totalItemsCharged, int totalCreditsApplied,
+    public CreditLimit(int accountNumber, int startBalance, int totalItemsCharged, int totalCreditsApplied,
                        int creditLimit) {
 
         this.accountNumber = accountNumber;
-        this.beginingBalance = beginingBalance;
+        this.startBalance = startBalance;
         this.totalItemsCharged = totalItemsCharged;
         this.totalCreditsApplied = totalCreditsApplied;
         this.creditLimit = creditLimit;
@@ -22,11 +22,11 @@ public class CreditLimit {
     public void setAccountNumber(int accountNumber) {
         this.accountNumber = accountNumber;
     }
-    public int getBeginingBalance() {
-        return beginingBalance;
+    public int getStartBalance() {
+        return startBalance;
     }
-    public void setBeginingBalance(int beginingBalance) {
-        this.beginingBalance = beginingBalance;
+    public void setStartBalance(int startBalance) {
+        this.startBalance = startBalance;
     }
     public int getTotalItemsCharged() {
         return totalItemsCharged;
@@ -37,7 +37,7 @@ public class CreditLimit {
     public int getTotalCreditsApplied() {
         return totalCreditsApplied;
     }
-}
+
     public void setTotalCreditsApplied(int totalCreditsApplied) {
         this.totalCreditsApplied = totalCreditsApplied;
     }
@@ -47,13 +47,11 @@ public class CreditLimit {
     public void setCreditLimit(int creditLimit) {
         this.creditLimit = creditLimit;
     }
-    public int calculateNewBalance()
-    {
-        newBalance = beginingBalance + totalItemsCharged - totalCreditsApplied;
+    public int calculateNewBalance() {
+        newBalance = startBalance + totalItemsCharged - totalCreditsApplied;
         return newBalance;
     }
-    public void checkCreditLimit()
-    {
+    public void checkCreditLimit() {
         if(newBalance > creditLimit)
             System.out.print("Credit Limit Exceeded");
     }
