@@ -1,6 +1,6 @@
 package Chapter4;
-
 public class CreditLimit {
+
     private int accountNumber;
     private int startBalance;
     private int totalItemsCharged;
