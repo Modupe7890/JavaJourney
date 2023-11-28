@@ -8,10 +8,10 @@ public class LargestNum {
         int counter = 0;
         int largest = 0;
 
-        System.out.println("Enter the count of ten numbers: ");
+        System.out.println("Enter ten numbers: ");
         num = input.nextInt();
 
-        while (counter < 10){
+        while (counter <= 10){
 
             if (num > largest){
                 largest = num;
