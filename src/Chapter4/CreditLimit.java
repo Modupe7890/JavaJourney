@@ -7,9 +7,11 @@ public class CreditLimit {
     private int totalCreditsApplied;
     private int creditLimit;
     private int newBalance;
-    public CreditLimit(int accountNumber, int startBalance, int totalItemsCharged, int totalCreditsApplied,
+    public CreditLimit(int accountNumber,
+                       int startBalance,
+                       int totalItemsCharged,
+                       int totalCreditsApplied,
                        int creditLimit) {
-
         this.accountNumber = accountNumber;
         this.startBalance = startBalance;
         this.totalItemsCharged = totalItemsCharged;
@@ -51,10 +53,11 @@ public class CreditLimit {
         newBalance = startBalance + totalItemsCharged - totalCreditsApplied;
         return newBalance;
     }
-    public void checkCreditLimit() {
-        if(newBalance > creditLimit)
-            System.out.print("Credit Limit Exceeded");
+    public String checkCreditLimit() {
+        if(newBalance > creditLimit){
+            return "Credit Limit Exceeded";
+        }else {
+            return "Credit Limit not exceeded";
+        }
     }
-
-
 }
