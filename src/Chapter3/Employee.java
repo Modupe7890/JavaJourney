@@ -15,7 +15,8 @@ public class Employee {
         this.yearlySalary = monthSal*12;
     }
 
-        public void setFirstName(String firstName) {this.firstName=firstName;}
+        public void setFirstName(String firstName) {
+        this.firstName=firstName;}
 
         public String getFirstname(){
             return firstName;

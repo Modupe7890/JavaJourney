@@ -6,9 +6,9 @@ public class SalesCommission {
      double item3 = 99.95;
      double item4 = 350.89;
 
-     double totalItem =
+     double totalItemValue =
              item1 + item2 + item3 + item4;
-     double SalesEarning = 18 * totalItem;
+     double SalesEarning = 18 * totalItemValue;
 
         System.out.printf("Sales Earning is " +SalesEarning);
     }
