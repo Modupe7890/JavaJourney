@@ -11,5 +11,15 @@ public class ForStatementExample {
             System.out.printf("%d ", i);
         }
         System.out.println();
+
+        for (int i = 7; i <= 77; i += 7){
+            System.out.printf("%d ", i);
+        }
+        System.out.println();
+
+        for (int i = 20; i >= 2; i -= 2){
+            System.out.printf("%d ", i);
+        }
+        System.out.println();
     }
 }
