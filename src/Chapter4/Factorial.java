@@ -11,7 +11,7 @@ public class Factorial {
         int factorial = 0;
 
 
-        for (num = 1; num <= 0; num *= 1){
+        for (num =1; num >=0; num *= 1){
             System.out.printf("Factorial of"+num+ "is " );
         }
         ++factorial;
