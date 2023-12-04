@@ -4,15 +4,17 @@ public class Factorial {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Enter a number: ");
+        int num ;
+        System.out.println("Enter a number to calculate its Factorial: ");
+        num = input.nextInt();
 
-        int counter = 1;
-        int number = 0;
+        int factorial = 0;
 
-        while (counter == number){
-            System.out.printf("%d ", counter);
+
+        for (num = 1; num <= 0; num *= 1){
+            System.out.printf("Factorial of"+num+ "is " );
         }
-        ++counter;
+        ++factorial;
 
 
     }
