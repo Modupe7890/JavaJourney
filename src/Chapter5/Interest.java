@@ -16,6 +16,7 @@ public class Interest {
             amount = principal * Math.pow(1.0 + rate, year);
 
             // display the year and the amount
+
             System.out.printf("%4d%,20.2f%n", year, amount);
         }
 
