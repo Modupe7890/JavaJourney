@@ -7,12 +7,12 @@ public class MakingDiff {
         double Total;
 
 
-        System.out.printf("%s%s%30s%n", "Year", "Anticipated World Pop", "Increase in World Pop");
+        System.out.printf("%s%s%50s%n", "Year", "Anticipated World Pop", "Increase in World Pop");
 
         for (int year = 1; year <= 75; ++year){
             Total = population * Math.pow(1.0 + growthRate, year);
 
-            System.out.printf("%4d%,20.2f%n", year, Total);
+            System.out.printf("%4d%,50.2f%n", year, Total);
 
         }
 
