@@ -11,5 +11,40 @@ public class LetterGrades {
         int fCount = 0;
 
         Scanner input = new Scanner(System.in);
+
+        System.out.printf("%s%n%s%n %s%n %s%n",
+                "Enter the integer grades in the range 0-100.", "<Ctrl> d ");
+
+        while (input.hasNext()) {
+
+            int grade = input.nextInt();
+            total += grade;
+            ++gradeCounter;
+
+            switch (grade / 10){
+                case 9:
+                case 10:
+                    ++aCount;
+                    break;
+
+                case 8:
+                    ++bCount;
+                    break;
+
+                case 7:
+                    ++cCount;
+                    break;
+
+                case 6:
+                    ++dCount;
+                    break;
+
+                default:
+                    ++fCount;
+                    break;
+            }
+        }
+                    System.out.printf("%nGrade Report:%n");
+
     }
 }
