@@ -5,5 +5,16 @@ public class CompoundInterest {
         int amount;
         int principal;
         double rate;
+
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Enter the Amount: ");
+        amount = input.nextInt();
+        System.out.println("Enter the Principal amount: ");
+        principal = input.nextInt();
+        System.out.println("Enter the rate: ");
+        rate = input.nextInt();
+
+
     }
 }
