@@ -1,8 +1,9 @@
 package Chapter5;
-
+import java.util.Scanner;
 public class CompoundInterest {
     public static void main(String[] args) {
         int amount;
-        int principal = 1000;
+        int principal;
+        double rate;
     }
 }
