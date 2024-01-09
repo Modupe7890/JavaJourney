@@ -1,42 +1,62 @@
 package Chapter5;
-
+import java.util.Scanner;
 public class CalculateSales {
-    private int productNumber;
-    private int quantitySold;
-    private double product1 = 2.97;
-    private double product2 = 4.50;
-    private double product3 = 9.98;
-    private double product4 = 4.49;
-    private double product5 = 6.87;
+    public static void main(String[] args) {
+            Scanner input = new Scanner(System.in);
+            double totalRetailAmount = 0;
 
-    public CalculateSales (int productNumber, int quantitySold){
-        this.productNumber = productNumber;
-        this.quantitySold = quantitySold;
-    }
+            // Display the product list
+            System.out.println("Product List:");
+            System.out.println("1. $2.98");
+            System.out.println("2. $4.50");
+            System.out.println("3. $9.98");
+            System.out.println("4. $4.49");
+            System.out.println("5. $6.87");
 
-    public void setProductNumber(int productNumber) {
-        this.productNumber = productNumber;
-    }
+            // Sentinel-controlled loop to read product number and quantity sold
+            while (true) {
+                System.out.print("Enter product number (1-5) or -1 to exit: ");
+                int productNumber = input.nextInt();
 
-    public double getProductNumber() {
-        return productNumber;
-    }
+                if (productNumber == -1) {
+                    break; // Exit the loop if -1 is entered
+                }
 
-    public void setQuantitySold(int quantitySold) {
-        this.quantitySold = quantitySold;
-    }
-    public double getQuantitySold() {
-        return quantitySold;
-    }
-    public void calculateRetailAmount (){
-        double totalSales = 0;
-        int item1 = 0;
-        int item2 = 0;
-        int item3 = 0;
-        int item4 = 0;
-        int item5 = 0;
-        System.out.printf("%s%n%s%n%n", "Enter product number and quantity sold for all items sold,",
-                "Enter (0) to terminate input,");
+                System.out.print("Enter quantity sold: ");
+                int quantitySold = input.nextInt();
+
+                // Calculate retail value based on product number using a switch statement
+                double retailPrice;
+                switch (productNumber) {
+                    case 1:
+                        retailPrice = 2.98;
+                        break;
+                    case 2:
+                        retailPrice = 4.50;
+                        break;
+                    case 3:
+                        retailPrice = 9.98;
+                        break;
+                    case 4:
+                        retailPrice = 4.49;
+                        break;
+                    case 5:
+                        retailPrice = 6.87;
+                        break;
+                    default:
+                        System.out.println("Invalid product number. Please enter a number between 1 and 5.");
+                        continue; // Continue to the next iteration of the loop
+                }
+
+                // Calculate and accumulate the total retail value
+                double productTotal = retailPrice * quantitySold;
+                totalRetailAmount += productTotal;
+
+                System.out.println("Retail value for product " + productNumber + " = $" + productTotal);
+            }
+
+            // Display the total retail value of all products sold
+            System.out.println("Total retail value of all products sold: $" + totalRetailAmount);
 
     }
 }
