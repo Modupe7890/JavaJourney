@@ -25,8 +25,18 @@ public class CalculateSales {
     public void setQuantitySold(int quantitySold) {
         this.quantitySold = quantitySold;
     }
-
     public double getQuantitySold() {
         return quantitySold;
+    }
+    public void calculateRetailAmount (){
+        double totalSales = 0;
+        int item1 = 0;
+        int item2 = 0;
+        int item3 = 0;
+        int item4 = 0;
+        int item5 = 0;
+        System.out.printf("%s%n%s%n%n", "Enter product number and quantity sold for all items sold,",
+                "Enter (0) to terminate input,");
+
     }
 }
