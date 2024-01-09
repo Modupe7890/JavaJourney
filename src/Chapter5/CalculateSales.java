@@ -1,15 +1,20 @@
 package Chapter5;
 
 public class CalculateSales {
-    private double productNumber;
-    private double quantitySold;
+    private int productNumber;
+    private int quantitySold;
+    private double product1 = 2.97;
+    private double product2 = 4.50;
+    private double product3 = 9.98;
+    private double product4 = 4.49;
+    private double product5 = 6.87;
 
-    public CalculateSales (double productNumber, double quantitySold){
+    public CalculateSales (int productNumber, int quantitySold){
         this.productNumber = productNumber;
         this.quantitySold = quantitySold;
     }
 
-    public void setProductNumber(double productNumber) {
+    public void setProductNumber(int productNumber) {
         this.productNumber = productNumber;
     }
 
@@ -17,7 +22,7 @@ public class CalculateSales {
         return productNumber;
     }
 
-    public void setQuantitySold(double quantitySold) {
+    public void setQuantitySold(int quantitySold) {
         this.quantitySold = quantitySold;
     }
 
