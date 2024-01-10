@@ -16,7 +16,8 @@ public class CompoundInterest {
         rate = input.nextInt();
 
         System.out.printf("%s%20s%n", "Year", "Amount on deposit");
-
+        System.out.printf("The compound interest after %d years is: $%.2f\n", years, compoundInterest);
+        System.out.printf("The total amount after %d years is: $%.2f\n", years, principal + compoundInterest);
         for (int year = 1; year <= 10; ++year){
 
 
