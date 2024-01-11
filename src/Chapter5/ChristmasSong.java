@@ -43,7 +43,7 @@ public class ChristmasSong {
                             System.out.println("On the eleventh day of Christmas my true love sent to me");
                             break;
                         case 12:
-                            System.out.println("On the twelveth day of Christmas my true love sent to me");
+                            System.out.println("On the twelve day of Christmas my true love sent to me");
                             break;
 
                     }
@@ -84,7 +84,7 @@ public class ChristmasSong {
                             System.out.println("Two turtle doves and");
 
                         case 13:
-                            System.out.println("A patridge in a pear tree");
+                            System.out.println("A partridge in a pear tree");
 
 
                     }
