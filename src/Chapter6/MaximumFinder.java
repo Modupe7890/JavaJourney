@@ -2,7 +2,7 @@ package Chapter6;
 import java.util.Scanner;
 public class MaximumFinder {
     public static void main(String[] args) {
-
+        double maximum;
         Scanner input = new Scanner(System.in);
 
         System.out.print("Enter three floating-point values separated by spaces: ");
@@ -16,6 +16,15 @@ public class MaximumFinder {
         System.out.println("Maximum is: " +result);
 
         public static double maximum (double x; double y; double z;){
+            double maximumValue = x;
+
+            if (y > maximumValue)
+                maximumValue = y;
+
+            if (z > maximumValue)
+                maximumValue = z;
+
+            return maximumValue;
 
 
         }
