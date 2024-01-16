@@ -15,5 +15,10 @@ public class MaximumFinder {
 
         System.out.println("Maximum is: " +result);
 
+        public static double maximum (double x; double y; double z;){
+
+
+        }
+
     }
 }
