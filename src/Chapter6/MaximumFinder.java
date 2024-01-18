@@ -5,6 +5,7 @@ public class MaximumFinder {
         double maximum;
         Scanner input = new Scanner(System.in);
 
+        // prompt for and input three floating-point values
         System.out.print("Enter three floating-point values separated by spaces: ");
 
         double number1 = input.nextDouble();
