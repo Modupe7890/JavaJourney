@@ -17,19 +17,19 @@ public class MaximumFinder {
 
         System.out.println("Maximum is: " +result);
 
-        public static double maximum (double x, double y, double z){
-            double maximumValue = x;
+    }
 
-            if (y > maximumValue)
-                maximumValue = y;
+    public static double maximum (double x, double y, double z){
+        double maximumValue = x;
 
-            if (z > maximumValue)
-                maximumValue = z;
+        if (y > maximumValue)
+            maximumValue = y;
 
-            return maximumValue;
+        if (z > maximumValue)
+            maximumValue = z;
 
+        return maximumValue;
 
-        }
 
     }
 }
