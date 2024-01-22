@@ -11,7 +11,7 @@ public class RandomIntegers {
             System.out.printf("%d ", face);
 
 
-            if (counter % 5 == 0)
+            if (counter % 4 == 0)
                  System.out.println();
         }
     }
