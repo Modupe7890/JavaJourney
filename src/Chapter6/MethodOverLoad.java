@@ -7,5 +7,6 @@ public class MethodOverLoad {
     }
     public static int square (int intValue){
         System.out.printf("%nCalled square with int argument: %d%n", intValue);
+        return intValue * intValue;
     }
 }
