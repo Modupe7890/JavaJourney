@@ -9,4 +9,8 @@ public class MethodOverLoad {
         System.out.printf("%nCalled square with int argument: %d%n", intValue);
         return intValue * intValue;
     }
+    public static double square(double doubleValue){
+
+    }
+
 }
