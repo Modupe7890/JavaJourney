@@ -6,6 +6,6 @@ public class MethodOverLoad {
         System.out.printf("Square of double 7.5 is %f%n", sqaure(7.5));
     }
     public static int square (int intValue){
-
+        System.out.printf("%nCalled square with int argument: %d%n", intValue);
     }
 }
