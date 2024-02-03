@@ -5,5 +5,7 @@ public class MathTest {
         public static void
                 private int localVariable(0);
 
+        System.out.println("");
+
     }
 }
