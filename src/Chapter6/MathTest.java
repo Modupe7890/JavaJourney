@@ -6,6 +6,7 @@ public class MathTest {
                 private int localVariable(0);
 
         System.out.println("");
+        System.out.println(" ttttthe");
 
     }
 }
