@@ -6,6 +6,12 @@ public class Scope {
     public static void main(String[] args) {
         int x = 5;
         System.out.printf("local x in main is %d%n", x);
+        System.out.printf("local x in main is %d%n", x);
+        useLocalVariable(); // useLocalVariable has local x
+        useField(); // useField uses class Scope's field x
+        useLocalVariable(); // useLocalVariable reinitializes local x
+        useField(); // class Scope's field x retains its value
+        System.out.printf("%nlocal x in main is %d%n", x);
     }
     public static void useLocalVariable(){
         int x = 25;
