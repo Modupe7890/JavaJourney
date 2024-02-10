@@ -8,6 +8,8 @@ public static void main(String[] args) {
        System.out.println(" ttttthe");
     System.out.println("the");
     System.out.println(" print the correct answer");
+
+    System.out.println("the value is ");
     System.out.println("the value is ");
 
   }
