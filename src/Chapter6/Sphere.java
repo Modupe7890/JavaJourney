@@ -6,6 +6,6 @@ public class Sphere {
         Scanner input = new Scanner(System.in);
 
         System.out.println("Enter the radius of the Sphere");
-
+        double radius = input.nextDouble();
     }
 }
