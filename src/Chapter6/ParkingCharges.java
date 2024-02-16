@@ -28,5 +28,6 @@ public class ParkingCharges {
         int maximumHours = 3;
         int maximumHours = 3;
         int maximumHours = 3;
+        int maximumHours = 3;
     }
 }
