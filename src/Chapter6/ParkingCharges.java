@@ -23,11 +23,6 @@ public class ParkingCharges {
         double hourlyRate = 0.50;
         double maximumDailyCharge = 10.00;
         int maximumHours = 3;
-        int maximumHours = 3;
-        int maximumHours = 3;
-        int maximumHours = 3;
-        int maximumHours = 3;
-        int maximumHours = 3;
-        int maximumHours = 3;
+
     }
 }
