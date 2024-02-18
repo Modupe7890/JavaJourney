@@ -41,8 +41,6 @@ public class ParkingCharges {
 
         totalCharges += charge;
         System.out.printf("%nRunning total of yesterday's receipts is: %.2f", calculculateCharge());
-        totalCharges += charge;
-        totalCharges += charge;
-        totalCharges += charge;
+
     }
 }
