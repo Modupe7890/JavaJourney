@@ -35,9 +35,10 @@ public class ParkingCharges {
 
             System.out.printf("Customer charge is: %.2f%n", calculateCharges(hoursParked));
             totalCharges += calculateCharges(hoursParked);
+            return totalCharges;
         }
 
-        double charge = calculateCharges(double totalCharges);
+
         System.out.printf("Parking charge: $%.2f%n", charge);
 
         totalCharges += charge;
