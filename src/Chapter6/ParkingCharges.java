@@ -25,10 +25,11 @@ public class ParkingCharges {
         System.out.println();
 
 
-        int count;
+        int count =1;
         double totalCharges = 0;
 
-        for(int d = 1; d <= count; d++) {
+        for(int d= 1; d <= count; d++) {
+
             System.out.println("Enter total number of hours used in the park: ");
             int hoursParked = input.nextInt();
 
@@ -36,7 +37,7 @@ public class ParkingCharges {
             totalCharges += calculateCharges(hoursParked);
         }
 
-        double charge = calculateCharges(totalCharges);
+        double charge = calculateCharges(double totalCharges);
         System.out.printf("Parking charge: $%.2f%n", charge);
 
         totalCharges += charge;
