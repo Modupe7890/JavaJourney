@@ -35,8 +35,6 @@ public class ParkingCharges {
 
             System.out.printf("Customer charge is: %.2f%n", calculateCharges(hoursParked));
             totalCharges += calculateCharges(hoursParked);
-
-            System.out.printf("%nRunning total of yesterday's receipts is: %.2f", calculculateCharge());
         }
 
     }
