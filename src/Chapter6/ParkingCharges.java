@@ -37,7 +37,7 @@ public class ParkingCharges {
             totalCharges += calculateCharges(hoursParked);
             totalCharges += calculateCharges(hoursParked);
             totalCharges += calculateCharges(hoursParked);
-
+            totalCharges += calculateCharges(hoursParked);
         }
 
     }
