@@ -16,8 +16,8 @@ public class CircleArea {
 
         double area = Math.PI * Math.pow(radius, 2);
         return area;
-        return area;
-        return area;
+
+
 
 
 
