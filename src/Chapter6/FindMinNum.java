@@ -13,6 +13,10 @@ public class FindMinNum {
 
         double result = minimum3(num1, num2, num3);
 
+        System.out.println("The smallest number is: " + result);
+    }
+    public static double minimum3(double num1, double num2, double num3) {
+        double minOfFirstTwo = Math.min(num1, num2);
 
     }
 }
