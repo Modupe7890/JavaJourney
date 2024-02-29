@@ -11,6 +11,8 @@ public class FindMinNum {
         System.out.println("Enter the third number: ");
         double num3 = input.nextDouble();
 
+        double result = minimum3(num1, num2, num3);
+
 
     }
 }
