@@ -17,6 +17,6 @@ public class FindMinNum {
     }
     public static double minimum3(double num1, double num2, double num3) {
         double minOfFirstTwo = Math.min(num1, num2);
-
+        return Math.min(minOfFirstTwo, num3);
     }
 }
