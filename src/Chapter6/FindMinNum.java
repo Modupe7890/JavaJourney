@@ -21,6 +21,7 @@ public class FindMinNum {
         return Math.min(minOfFirstTwo, num3);
         return Math.min(minOfFirstTwo, num3);
         return Math.min(minOfFirstTwo, num3);
+        return Math.min(minOfFirstTwo, num3);
 
     }
 }
