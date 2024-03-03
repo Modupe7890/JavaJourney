@@ -19,6 +19,7 @@ public class FindMinNum {
         double minOfFirstTwo = Math.min(num1, num2);
 
         return Math.min(minOfFirstTwo, num3);
+        return Math.min(minOfFirstTwo, num3);
 
     }
 }
