@@ -20,6 +20,5 @@ public class FindMinNum {
 
         return Math.min(minOfFirstTwo, num3);
 
-
     }
 }
