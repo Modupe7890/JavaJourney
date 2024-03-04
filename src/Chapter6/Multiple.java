@@ -20,6 +20,11 @@ public class Multiple {
             int second = input.nextInt();
 
             if (isMultiple(first, second)) {
+                System.out.println(second + " is a multiple of " + first);
+            }
+            else {
+                System.out.println(second + " is not a multiple of " + first);
+            }
         }
     }
 }
