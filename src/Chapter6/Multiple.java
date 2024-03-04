@@ -17,6 +17,9 @@ public class Multiple {
                 break;
             }
             System.out.print("Enter the second number ");
+            int second = input.nextInt();
+
+            if (isMultiple(first, second)) {
         }
     }
 }
