@@ -2,7 +2,7 @@ package Chapter6;
 import java.util.Scanner;
 public class Multiple {
 
-    public boolean isMultiple(int first, int second) {
+    public static boolean Multiple(int first, int second) {
         return second % first == 0;
     }
     public static void main(String[] args) {
@@ -19,7 +19,7 @@ public class Multiple {
             System.out.print("Enter the second number ");
             int second = input.nextInt();
 
-            if (isMultiple(first, second)) {
+            if (Multiple(first, second)) {
                 System.out.println(second + " is a multiple of " + first);
             }
             else {
