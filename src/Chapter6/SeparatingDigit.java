@@ -19,6 +19,9 @@ public class SeparatingDigit {
         int b = input.nextInt();
 
         int quotient = calQuotient(a,b);
-        System.out.printf("Answer to the Quotient");
+        System.out.printf("Answer to the Quotient" +quotient);
+
+        int remainder = calRemainder(a,b);
+        System.out.printf("Answer to the Remainder " +remainder);
     }
 }
