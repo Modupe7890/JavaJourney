@@ -8,6 +8,7 @@ public class ReversingDigit {
             reversedNumber = reversedNumber * 10 + digit;
               number /= 10;
             number /= 10;
+            number /= 10;
         }
     }
 }
