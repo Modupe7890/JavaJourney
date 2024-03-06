@@ -7,9 +7,7 @@ public class ReversingDigit {
             int digit = number % 10;
             reversedNumber = reversedNumber * 10 + digit;
               number /= 10;
-            number /= 10;
-            number /= 10;
-            number /= 10;
+
         }
     }
 }
