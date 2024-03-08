@@ -12,6 +12,12 @@ public class BarChart {
                 System.out.printf("%5d: ", 100);
             } else
                 System.out.printf("%02d-%02d: ", counter * 10, counter * 10 + 9);
+
+            for (int stars = 0; stars < array.length; stars++) {
+                System.out.println("*");
+
+                System.out.println();
+            }
         }
     }
 
