@@ -12,14 +12,15 @@ public class StudentPoll {
             catch(ArrayIndexOutOfBoundsException e){
                 System.out.println(e);
                 System.out.printf("response [%d] = %d%n%n", answer, responses[answer]);
+                System.out.printf("response [%d] = %d%n%n", answer, responses[answer]);
             }
         }
         System.out.printf("%s%10s%n", "Rating", "Frequency");
 
-        for(int rating =1; rating < frequency.length; rating++);
-        System.out.printf("%6d%10d%n", rating, frequency[rating]);
-        System.out.printf("%6d%10d%n", rating, frequency[rating]);
-        System.out.printf("%6d%10d%n", rating, frequency[rating]);
+        for(int rating =1; rating < frequency.length; rating++) {
+            System.out.printf("%6d%10d%n", rating, frequency[rating]);
+        }
+
     }
 
 }
