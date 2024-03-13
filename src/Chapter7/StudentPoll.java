@@ -13,6 +13,7 @@ public class StudentPoll {
                 System.out.println(e);
                 System.out.printf("response [%d] = %d%n%n", answer, responses[answer]);
                 System.out.printf("response [%d] = %d%n%n", answer, responses[answer]);
+                System.out.printf("response [%d] = %d%n%n", answer, responses[answer]);
             }
         }
         System.out.printf("%s%10s%n", "Rating", "Frequency");
