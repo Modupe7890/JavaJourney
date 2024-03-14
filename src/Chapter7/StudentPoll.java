@@ -21,6 +21,7 @@ public class StudentPoll {
             System.out.printf("%6d%10d%n", rating, frequency[rating]);
             System.out.printf("%6d%10d%n", rating, frequency[rating]);
             System.out.printf("%6d%10d%n", rating, frequency[rating]);
+            System.out.printf("%6d%10d%n", rating, frequency[rating]);
         }
 
     }
