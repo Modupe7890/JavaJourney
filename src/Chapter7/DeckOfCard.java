@@ -10,5 +10,12 @@ public class DeckOfCard {
     public DeckOfCard(){
         String[] faces = {"Ace", "Deuce", "Three", "Four", "Five", "Six",
                 "Seven", "Eight", "Nine", "Ten", "Jack", "Queen", "King" };
+        String[] suits = { "Hearts", "Diamonds", "Clubs", "Spades" };
+        deck = new Card[NUMBER_OF_CARDS];
+        currentCard = 0;
+
+        // populate deck with Card objects
+        for (int count = 1; count < deck.length; count++);
+        deck[count] = new Card(faces[count % 13], suits[count / 13]);
     }
 }
