@@ -1,13 +1,13 @@
 package Chapter7;
 import java.security.SecureRandom;
-public class DeckOfCard {
+public class DeckOfCards {
     private Card[] deck;
     private int currentCard;
     private static final int NUMBER_OF_CARDS = 52;
     private static final  SecureRandom randomNumbers = new SecureRandom();
 
     // Constructor fills deck of Cards
-    public DeckOfCard() {
+    public DeckOfCards() {
         String[] faces = {"Ace", "Deuce", "Three", "Four", "Five", "Six",
                 "Seven", "Eight", "Nine", "Ten", "Jack", "Queen", "King"};
         String[] suits = {"Hearts", "Diamonds", "Clubs", "Spades"};
@@ -43,6 +43,6 @@ public class DeckOfCard {
                     return null;
                 }
             }
-        }
-    }
-}
+
+
+
