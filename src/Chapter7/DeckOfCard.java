@@ -7,17 +7,19 @@ public class DeckOfCard {
     private static final  SecureRandom randomNumbers = new SecureRandom();
 
     // Constructor fills deck of Cards
-    public DeckOfCard(){
+    public DeckOfCard() {
         String[] faces = {"Ace", "Deuce", "Three", "Four", "Five", "Six",
-                "Seven", "Eight", "Nine", "Ten", "Jack", "Queen", "King" };
-        String[] suits = { "Hearts", "Diamonds", "Clubs", "Spades" };
+                "Seven", "Eight", "Nine", "Ten", "Jack", "Queen", "King"};
+        String[] suits = {"Hearts", "Diamonds", "Clubs", "Spades"};
         deck = new Card[NUMBER_OF_CARDS];
         currentCard = 0;
 
         // populate deck with Card objects
         for (int count = 1; count < deck.length; count++) {
             deck[count] = new Card(faces[count % 13], suits[count / 13]);
+
         }
+    }
 
         // shuffle deck of Cards with one-pass algorithm
         public void shuffle(){
@@ -36,7 +38,8 @@ public class DeckOfCard {
         public Card dealCard(){
             if (currentCard < deck.length) {
                 return deck[currentCard++];
-             else{
+            }
+             else
                     return null;
                 }
             }
