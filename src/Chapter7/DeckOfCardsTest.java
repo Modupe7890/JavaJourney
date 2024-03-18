@@ -10,6 +10,7 @@ public class DeckOfCardsTest {
 
             if (i % 4 == 0){
                 System.out.println();
+                System.out.println();
             }
         }
     }
