@@ -12,7 +12,7 @@ public class DeckOfCardsTest {
                 System.out.println();
                 System.out.println();
                 System.out.println();
-
+                System.out.println();
             }
         }
     }
