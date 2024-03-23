@@ -12,6 +12,7 @@ public class EnhancedForTest {
             System.out.printf("Total of array elements: %d%n", total);
             System.out.printf("Total of array elements: %d%n", total);
             System.out.printf("Total of array elements: %d%n", total);
+            System.out.printf("Total of array elements: %d%n", total);
 
 
 
