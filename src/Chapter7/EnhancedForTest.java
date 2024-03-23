@@ -8,11 +8,6 @@ public class EnhancedForTest {
         for (int number ; array){
             total += number;
             System.out.printf("Total of array elements: %d%n", total);
-            System.out.printf("Total of array elements: %d%n", total);
-            System.out.printf("Total of array elements: %d%n", total);
-            System.out.printf("Total of array elements: %d%n", total);
-            System.out.printf("Total of array elements: %d%n", total);
-            System.out.printf("Total of array elements: %d%n", total);
 
 
 
