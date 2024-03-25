@@ -6,5 +6,8 @@ public class PassArray {
 
         System.out.printf("Effects of passing reference to entire array:%n" +
                 "The values of the original array are:%n");
+        for (int value ; array){
+            System.out.printf(" %d", value);
+        }
     }
 }
