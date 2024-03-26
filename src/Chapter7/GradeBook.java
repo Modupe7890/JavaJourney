@@ -47,8 +47,16 @@ public class GradeBook {
         return highGrade;
     }
     // determine average grade Test
-    public double average(){
+    public double getAverage(){
         int total = 0;
-
+        for (int grade : grades){
+            total += grade;
+        }
+        return (double) total/grades.length;
     }
+    // output barchart displaying grade distribution
+    public void outputBarchart(){
+        System.out.println("Grade distribution:");
+    }
+
 }
