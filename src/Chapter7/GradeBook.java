@@ -36,4 +36,19 @@ public class GradeBook {
         }
         return lowGrade;
     }
+    // find maximum grade
+    public int getMaximum(){
+        int highGrade = grades[0];
+        for (int grade : grades){
+            if (grade > highGrade){
+                highGrade = grade;
+            }
+        }
+        return highGrade;
+    }
+    // determine average grade Test
+    public double average(){
+        int total = 0;
+
+    }
 }
