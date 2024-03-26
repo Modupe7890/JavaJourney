@@ -14,5 +14,16 @@ public class GradeBook {
     public void setCourseName(String courseName) {
         this.courseName = courseName;
     }
-    // method to
+    // method to get coursename
+
+    public String getCourseName() {
+        return courseName;
+    }
+    public void processGrade(){
+        outputGrades();
+        System.out.printf("%nClass average is %.2f%n",getAverage());
+
+        System.out.printf("Lowest grade is %d%nHighest grade is %d%n%n",getMinimum(),getMaximum());
+        outputBarchart();
+    }
 }
