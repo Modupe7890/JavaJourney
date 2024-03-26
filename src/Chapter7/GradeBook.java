@@ -57,6 +57,16 @@ public class GradeBook {
     // output barchart displaying grade distribution
     public void outputBarchart(){
         System.out.println("Grade distribution:");
-    }
+        // stores frequency od grades in each range of 10 grades
+        int [] frequency = new int[11];
+        for (int grade : grades){
+            ++frequency[grade/10];
 
+            for (int count =0; count < frequency.length; count++){
+                if (count == 10){
+                    System.out.printf("%5d: ", 100);
+                }
+            }
+        }
+    }
 }
