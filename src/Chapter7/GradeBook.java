@@ -26,4 +26,14 @@ public class GradeBook {
         System.out.printf("Lowest grade is %d%nHighest grade is %d%n%n",getMinimum(),getMaximum());
         outputBarchart();
     }
+    // find minimum grade
+    public int getMinimum(){
+        int lowGrade = grades[0];
+        for(int grade : grades){
+            if (grade < lowGrade){
+                lowGrade = grade;
+            }
+        }
+        return lowGrade;
+    }
 }
