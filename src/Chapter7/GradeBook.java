@@ -68,8 +68,22 @@ public class GradeBook {
                 }
                 else {
                     System.out.printf("%02d-%02d: ", count * 10, count * 10 + 9);
+                    // print bars of asterisks
+                    for (int stars =0; stars < frequency[count]; stars++){
+                        System.out.print("*");
+
+                        System.out.println();
+                    }
                 }
             }
+        }
+    }
+    // output the content of the grade array
+    public void outputGrades(){
+        System.out.printf("The grades are:%n%n");
+
+        for (int student = 0; student < grades.length; student++){
+            System.out.printf("Student %2d: %3d%n", student + 1, grades[student]);
         }
     }
 }
