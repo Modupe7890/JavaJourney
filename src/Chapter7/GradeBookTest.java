@@ -7,8 +7,6 @@ public class GradeBookTest {
 
         System.out.printf("Welcome to the grade book for%n%s%n%n", myGradeBook.getCourseName());
         myGradeBook.processGrade();
-        myGradeBook.processGrade();
-        myGradeBook.processGrade();
-        myGradeBook.processGrade();
+
     }
 }
