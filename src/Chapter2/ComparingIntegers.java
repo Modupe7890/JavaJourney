@@ -1,6 +1,6 @@
 package Chapter2;
 import java.util.Scanner;
-public class Exercise13 {
+public class ComparingIntegers {
     // A program that compares two integers
     // Chapter2 Exercise 2.16
     public static void main(String[] args) {
