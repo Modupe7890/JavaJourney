@@ -9,5 +9,6 @@ public class GradeBookTest {
         myGradeBook.processGrade();
         myGradeBook.processGrade();
         myGradeBook.processGrade();
+        myGradeBook.processGrade();
     }
 }
