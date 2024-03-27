@@ -1,6 +1,6 @@
 package Chapter2;
 import java.util.Scanner;
-public class Exercise11 {
+public class Exercise11{
     //A program that displays number 1 to 4
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
