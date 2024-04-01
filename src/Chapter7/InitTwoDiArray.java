@@ -18,6 +18,7 @@ public class InitTwoDiArray {
                 System.out.printf("%d ", array[row][column]);
                 System.out.printf("%d ", array[row][column]);
                 System.out.printf("%d ", array[row][column]);
+                System.out.printf("%d ", array[row][column]);
 
 
 
