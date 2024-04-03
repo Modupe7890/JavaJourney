@@ -15,8 +15,6 @@ public class InitTwoDiArray {
 
             for(int column = 0; column < array[row].length; column++){
                 System.out.printf("%d ", array[row][column]);
-
-
             }
         }
 
