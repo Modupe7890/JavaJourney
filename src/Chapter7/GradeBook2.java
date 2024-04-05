@@ -53,6 +53,6 @@ public class GradeBook2 {
         return (double) total / setOfGrades.length;
     }
     public void outputBarChart(){
-
+        System.out.println("Overall grade distribution:");
     }
 }
