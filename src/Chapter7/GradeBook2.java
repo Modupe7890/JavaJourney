@@ -54,5 +54,15 @@ public class GradeBook2 {
     }
     public void outputBarChart(){
         System.out.println("Overall grade distribution:");
+
+        int[] frequency = new int[11];
+        for(int[] studentGrades : grades){
+            for(int grade : studentGrades){
+                ++frequency[grade / 10];
+            }
+            for(int count = 0; count < frequency.length; count++){
+                if(count ==10){
+            }
+        }
     }
 }
