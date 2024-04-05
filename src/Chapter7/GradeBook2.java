@@ -22,4 +22,26 @@ public class GradeBook2 {
                 "Highest grade in the grade book is", getMaximum());
         outputBarChart();
     }
+    public int getMinimum(){
+            int lowGrade = grades [0][0];
+            for (int[] studentGrades : grades){
+                for (int grade : studentGrades){
+                    if(grade < lowGrade){
+                        lowGrade = grade;
+                    }
+                }
+            }
+        return lowGrade;
+    }
+    public int getMaximum(){
+        int highGrade = grades [0][0];
+        for (int[] studentGrades : grades){
+            for (int grade : studentGrades){
+                if(grade > highGrade){
+                    highGrade = grade;
+                }
+            }
+        }
+        return highGrade;
+    }
 }
