@@ -44,4 +44,15 @@ public class GradeBook2 {
         }
         return highGrade;
     }
+
+    public double getAverage(int[] setOfGrades) {
+        int total = 0;
+        for(int grade : setOfGrades) {
+            total = +grade;
+        }
+        return (double) total / setOfGrades.length;
+    }
+    public void outputBarChart(){
+
+    }
 }
