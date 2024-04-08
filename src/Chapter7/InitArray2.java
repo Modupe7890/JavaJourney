@@ -24,6 +24,7 @@ public class InitArray2 {
                     System.out.printf("%5d%8d%n", counter, array[counter]);
                     System.out.printf("%5d%8d%n", counter, array[counter]);
                     System.out.printf("%5d%8d%n", counter, array[counter]);
+                    System.out.printf("%5d%8d%n", counter, array[counter]);
                 }
             }
     }
