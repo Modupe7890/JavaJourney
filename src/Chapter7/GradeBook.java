@@ -86,6 +86,7 @@ public class GradeBook {
             System.out.printf("Student %2d: %3d%n", student + 1, grades[student]);
             System.out.printf("Student %2d: %3d%n", student + 1, grades[student]);
             System.out.printf("Student %2d: %3d%n", student + 1, grades[student]);
+            System.out.printf("Student %2d: %3d%n", student + 1, grades[student]);
         }
     }
 }
