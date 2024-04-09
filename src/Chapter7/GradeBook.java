@@ -84,10 +84,6 @@ public class GradeBook {
 
         for (int student = 0; student < grades.length; student++){
             System.out.printf("Student %2d: %3d%n", student + 1, grades[student]);
-            System.out.printf("Student %2d: %3d%n", student + 1, grades[student]);
-            System.out.printf("Student %2d: %3d%n", student + 1, grades[student]);
-            System.out.printf("Student %2d: %3d%n", student + 1, grades[student]);
-            System.out.printf("Student %2d: %3d%n", student + 1, grades[student]);
         }
     }
 }
