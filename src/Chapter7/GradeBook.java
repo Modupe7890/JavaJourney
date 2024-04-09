@@ -14,7 +14,7 @@ public class GradeBook {
     public void setCourseName(String courseName) {
         this.courseName = courseName;
     }
-    // method to get coursename
+    // method to get courseName
 
     public String getCourseName() {
         return courseName;
