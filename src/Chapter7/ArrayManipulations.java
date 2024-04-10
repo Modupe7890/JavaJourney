@@ -31,7 +31,21 @@ public class ArrayManipulations {
             if (location >= 0) {
                 System.out.printf("Found 5 at element %d in intArray%n", location);
             }
-
+            else {
+                System.out.println("5 not found in intArray");
+            }
+            if(location >= 0) {
+                System.out.printf("Found 8763 at element %d in intArray%n", location);
+            }
+            else{
+                System.out.println("8763 not found in intArray");
+            }
+        }
+    }
+    public static void displayArray(int[] array, String description){
+        System.out.printf("%n%s: ", description);
+        for (int value : array) {
+             System.out.printf("%d ", value);
         }
     }
 }
