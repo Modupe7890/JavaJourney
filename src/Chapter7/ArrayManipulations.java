@@ -20,6 +20,18 @@ public class ArrayManipulations {
             displayArray(intArray, "intArray");
             displayArray(intArrayCopy, "intArrayCopy");
 
+            boolean b = Arrays.equals(intArray, intArrayCopy);
+            System.out.printf("%n%nintArray %s intArrayCopy%n", (b ? "==" : "!="));
+
+            b = Arrays.equals(intArray, filledIntArray);
+            System.out.printf("intArray %s filledIntArray%n", (b ? "==" : "!="));
+
+
+            int location = Arrays.binarySearch(intArray, 5);
+            if (location >= 0) {
+                System.out.printf("Found 5 at element %d in intArray%n", location);
+            }
+
         }
     }
 }
