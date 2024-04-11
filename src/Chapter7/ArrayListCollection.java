@@ -35,6 +35,7 @@ public class ArrayListCollection {
                     System.out.printf(" %s", item);
                     System.out.printf(" %s", item);
                     System.out.printf(" %s", item);
+                    System.out.printf(" %s", item);
                 }
             }
         }
