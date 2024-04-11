@@ -7,5 +7,9 @@ public class ArrayListCollection {
         items.add("red");
         items.add(0, "yellow");
         System.out.print("Display list contents with counter-controlled loop: ");
+
+        for(int i = 0; i < items.size(); i++) {
+            System.out.printf("%s ", items.get(i));
+        }
     }
 }
