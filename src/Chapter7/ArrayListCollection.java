@@ -34,6 +34,7 @@ public class ArrayListCollection {
                 for(String items : items){
                     System.out.printf(" %s", item);
                     System.out.printf(" %s", item);
+                    System.out.printf(" %s", item);
                 }
             }
         }
