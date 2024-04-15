@@ -22,5 +22,6 @@ public class VarargsTest {
         System.out.printf("Average of d1,d2,d3 and d4 is %.1f%n", average(d1,d2,d3,d4));
         System.out.printf("Average of d1,d2,d3 and d4 is %.1f%n", average(d1,d2,d3,d4));
         System.out.printf("Average of d1,d2,d3 and d4 is %.1f%n", average(d1,d2,d3,d4));
+        System.out.printf("Average of d1,d2,d3 and d4 is %.1f%n", average(d1,d2,d3,d4));
     }
 }
