@@ -15,10 +15,11 @@ public class OneDimensionalArray {
         }
         // five values of integer array bestScores
         int[] bestScores = {70, 75, 80, 85, 90};
-        System.out.printf("%s: ", "bestScores");
+        System.out.printf("%s: ", "Best Scores");
 
-        for (int i = 0; i < bestScores.length; i++) {
-            System.out.printf("BestScores", +(i + 1) + ":", +bestScores[i]);
+        for (int count = 0; count < bestScores.length; count++) {
+                bestScores[count] = count + 5;
+            System.out.printf("%d", +bestScores[count]);
         }
     }
 }
