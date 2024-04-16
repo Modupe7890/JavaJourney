@@ -27,6 +27,15 @@ public class DuplicateEliminate {
                 if(!isDuplicate){
                     uniqueNum[count] = newNum;
                     count++;
+
+                    System.out.print("Unique Numbers: ");
+                    for(int k = 0; k < count; k++){
+                        System.out.println(uniqueNum[k] +" ");
+                    }
+                    System.out.println();
+                }
+                else{
+                    System.out.println("Duplicate number, not added");
                 }
         }
 
