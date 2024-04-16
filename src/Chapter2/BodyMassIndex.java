@@ -20,19 +20,19 @@ public class BodyMassIndex {
 
         BMI = ((weight) / (height * height));
 
-        System.out.println("YOUR BMI VALUES");
+        System.out.println("YOUR BMI VALUES ");
 
         if (BMI < 18.5) {
-            System.out.print("You are Underweight");
+            System.out.printf("%s You are Underweight %n", BMI);
         }
         if (BMI >= 18.5 && BMI <= 24.5) {
-            System.out.print("Your BMI is Normal");
+            System.out.printf("%s Your BMI is Normal %n",BMI);
         }
         if (BMI >=25 && BMI <= 29.9) {
-            System.out.print("You are Overweight");
+            System.out.printf("%s You are Overweight %n", BMI);
         }
         if (BMI >= 30){
-            System.out.print("You are obese");
+            System.out.printf("%s You are obese %n",BMI);
         }
     }
 }
