@@ -1,7 +1,7 @@
 package Chapter2;
 // Exercise 2.31
 import java.util.Scanner;
-public class Exercise28 {
+public class NegativePositive {
     // A program that Display if a number is Positive or Negative
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);

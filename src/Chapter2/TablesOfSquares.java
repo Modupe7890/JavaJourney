@@ -1,7 +1,7 @@
 package Chapter2;
 //Exercise 2.31
 import java.util.Scanner;
-public class Exercise27 {
+public class TablesOfSquares {
     // An application that calculate Squares and cubes of number 1 to 10
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);

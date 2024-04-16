@@ -1,7 +1,7 @@
 package Chapter2;
 // Exercise 2.30
 import java.util.Scanner;
-public class Exercise26 {
+public class SeparatingDigits {
     // A program that separate the digit in integers
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
