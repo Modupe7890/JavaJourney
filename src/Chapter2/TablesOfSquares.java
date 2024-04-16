@@ -43,7 +43,8 @@ public class TablesOfSquares {
         System.out.print("Enter number 10:  ");
         number10 = input.nextInt();
 
-        System.out.println("number               square                      cube");
+        System.out.println("Number               Square                      Cube");
+        System.out.println(zero+"                      "+zero*zero+ "                         " + zero*zero*zero);
 
         System.out.println(number1+"                      "+number1*number1 + "                         " + number1*number1*number1);
 
