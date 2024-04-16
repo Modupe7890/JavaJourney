@@ -1,7 +1,7 @@
 package Chapter2;
 // Exercise 2.29
 // Integer value of a character
-public class Exercise25 {
+public class IntegerValueChar {
     public static void main(String[] args) {
 
         System.out.printf("The character %c has the value %d%n", 'A',((int)'A'));
@@ -17,9 +17,5 @@ public class Exercise25 {
         System.out.printf("The character %c has the value %d%n", '*',((int)'*'));
         System.out.printf("The character %c has the value %d%n", '+',((int)'+'));
         System.out.printf("The character %c has the value %d%n", '/',((int)'/'));
-
-
-
-
     }
 }
