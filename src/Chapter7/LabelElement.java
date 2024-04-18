@@ -12,6 +12,7 @@ public class LabelElement {
                 System.out.printf("row %d column %d = %d%n", row, col, sales[row][col]);
                 System.out.printf("row %d column %d = %d%n", row, col, sales[row][col]);
                 System.out.printf("row %d column %d = %d%n", row, col, sales[row][col]);
+                System.out.printf("row %d column %d = %d%n", row, col, sales[row][col]);
             }
         }
     }
