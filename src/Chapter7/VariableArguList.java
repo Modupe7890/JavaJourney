@@ -7,6 +7,9 @@ public class VariableArguList {
         System.out.printf("The product of 8 * 10 is: %d %n", product(8,10));
     }
     public static int product(int... number){
-
+        int product = 1;
+        for(int value : number){
+            product *= value;
+        }
     }
 }
