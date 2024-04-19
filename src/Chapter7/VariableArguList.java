@@ -11,5 +11,6 @@ public class VariableArguList {
         for(int value : number){
             product *= value;
         }
+        return product;
     }
 }
