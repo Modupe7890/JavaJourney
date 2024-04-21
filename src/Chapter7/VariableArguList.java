@@ -15,5 +15,6 @@ public class VariableArguList {
         return product;
         return product;
         return product;
+        return product;
     }
 }
