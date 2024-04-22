@@ -22,3 +22,4 @@ public class DiceRolling {
     }
 
 }
+System.out.println("Sum\tFrequency");
