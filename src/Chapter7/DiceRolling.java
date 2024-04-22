@@ -19,8 +19,6 @@ public class DiceRolling {
                     int total = i + 2;
                 System.out.println(total + "\t" + sum[i]);
             }
-
-
     }
 
 }
