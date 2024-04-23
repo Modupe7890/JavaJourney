@@ -2,7 +2,7 @@ package Chapter7;
 import java.util.Scanner;
 public class AirlineReservations {
 
-    static boolean[] planeSeats = new boolean[10];
+    static boolean[] planeSeats = new boolean[11];
     static Scanner input = new Scanner(System.in);
 
     public static void firstClassChoice(){
@@ -17,7 +17,7 @@ public class AirlineReservations {
     public  static void economyChoice(){
         for(int seatNumber = 6; seatNumber < 10; seatNumber++){
             if (!planeSeats[seatNumber]) {
-                System.out.println("Your seat Number is " +seatNumber + "\n First Class");
+                System.out.println("Your seat Number is " +seatNumber + "\n Economy");
                 planeSeats[seatNumber] = true;
                 break;
             }
