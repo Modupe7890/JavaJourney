@@ -30,7 +30,23 @@ public class AirlineReservations {
         int userSecondChoice = input.nextInt();
         if(userSecondChoice == 1){
             System.out.println("Next flight leaves in 3hours ");
-            elseif
+        } else if (userSecondChoice ==2){
+            economyChoice();
+        } else {
+            System.out.println("Wrong Input");
+        }
+    }
+    public static void alternativePlacementForEconomy(){
+        System.out.println("Do you mind being placed in the First class section?");
+        System.out.println("Enter 1 for yes" + "\n2 for No");
+
+        int userSecondChoice = input.nextInt();
+        if(userSecondChoice == 1){
+            System.out.println("Next flight leaves in 3hours ");
+        } else if (userSecondChoice ==2){
+            firstClassChoice();
+        } else {
+            System.out.println("Wrong Input");
         }
     }
 }
