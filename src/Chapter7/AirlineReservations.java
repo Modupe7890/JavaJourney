@@ -6,7 +6,7 @@ public class AirlineReservations {
     static Scanner input = new Scanner(System.in);
 
     public static void firstClassChoice(){
-        for(int seatNumber = 1; seatNumber < planeSeats.length; seatNumber++){
+        for(int seatNumber = 1; seatNumber < 5; seatNumber++){
             if (!planeSeats[seatNumber]) {
                 System.out.println("Your seat Number is " +seatNumber + "\n First Class");
                 planeSeats[seatNumber] = true;
@@ -15,7 +15,7 @@ public class AirlineReservations {
         }
     }
     public  static void economyChoice(){
-        for(int seatNumber = 6; seatNumber < planeSeats.length; seatNumber++){
+        for(int seatNumber = 6; seatNumber < 10; seatNumber++){
             if (!planeSeats[seatNumber]) {
                 System.out.println("Your seat Number is " +seatNumber + "\n First Class");
                 planeSeats[seatNumber] = true;
