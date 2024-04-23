@@ -53,5 +53,17 @@ public class AirlineReservations {
     public static void main(String[] args) {
         System.out.println("Please Type 1 for First Class or Type 2 for Economy");
         int userInput = input.nextInt();
+        if(userInput == 1){
+            firstClassChoice();
+        }
+        else if(userInput == 2){
+                economyChoice();
+        }
+            if(planeSeats[1] && planeSeats[2] && planeSeats[3] && planeSeats[4] && planeSeats[5]) {
+                alternativePlacementForFirstClass();
+            }
+            if(planeSeats[6] && planeSeats[7] && planeSeats[8] && planeSeats[9] && planeSeats[10]) {
+                alternativePlacementForEconomy();
+            }
     }
 }
