@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class AirlineReservations {
 
     static boolean[] planeSeats = new boolean[10];
-    Scanner input = new Scanner(System.in);
+    static Scanner input = new Scanner(System.in);
 
     public static void firstClassChoice(){
         for(int seatNumber = 0; seatNumber < planeSeats.length; seatNumber++){
@@ -24,6 +24,13 @@ public class AirlineReservations {
         }
     }
     public static void alternativePlacementForFirstClass(){
+        System.out.println("Do you mind being placed in the economy section?");
+        System.out.println("Enter 1 for yes" + "\n2 for No");
 
+        int userSecondChoice = input.nextInt();
+        if(userSecondChoice == 1){
+            System.out.println("Next flight leaves in 3hours ");
+            elseif
+        }
     }
 }
