@@ -49,4 +49,9 @@ public class AirlineReservations {
             System.out.println("Wrong Input");
         }
     }
+
+    public static void main(String[] args) {
+        System.out.println("Please Type 1 for First Class or Type 2 for Economy");
+        int userInput = input.nextInt();
+    }
 }
