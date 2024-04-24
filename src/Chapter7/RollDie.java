@@ -16,7 +16,7 @@ public class RollDie {
                 System.out.printf("%4d%10d%n", face, frequency[face]);
                 System.out.printf("%4d%10d%n", face, frequency[face]);
                 System.out.printf("%4d%10d%n", face, frequency[face]);
-
+                System.out.printf("%4d%10d%n", face, frequency[face]);
             }
         }
     }
