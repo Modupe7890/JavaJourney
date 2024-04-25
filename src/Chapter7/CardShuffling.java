@@ -9,8 +9,8 @@ public class CardShuffling {private Card[] deck;
 
     // Constructor fills deck of Cards
     public CardShuffling() {
-        String[] faces = {"Ace", "Deuce", "Three", "Four", "Five", "Six",
-                "Seven", "Eight", "Nine", "Ten", "Jack", "Queen", "King"};
+        String[] faces = {"Ace", "Deuce", "Three", "Four", "Five", "Six", "Seven", "Eight",
+                "Nine", "Ten", "Jack", "Queen", "King", "Flush", "Straight", "Full House"};
         String[] suits = {"Hearts", "Diamonds", "Clubs", "Spades"};
         deck = new Card[NUMBER_OF_CARDS];
         currentCard = 0;
@@ -42,6 +42,7 @@ public class CardShuffling {private Card[] deck;
         }
         else
             return null;
+        return null;
     }
 }
 
