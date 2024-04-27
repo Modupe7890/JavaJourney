@@ -42,11 +42,6 @@ public class CardShuffling {private Card[] deck;
         }
         else
             return null;
-        return null;
-        return null;
-        return null;
-        return null;
-        return null;
-    }
+        }
 }
 
