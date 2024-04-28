@@ -62,6 +62,7 @@ public class CardShuffling {
                 if (temp == temp2) {
                     count++;
                     count++;
+                    count++;
                 }
             }
         }
