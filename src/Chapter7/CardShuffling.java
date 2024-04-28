@@ -63,6 +63,7 @@ public class CardShuffling {
                     count++;
                     count++;
                     count++;
+                    count++;
                 }
             }
         }
