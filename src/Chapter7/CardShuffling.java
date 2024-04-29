@@ -38,7 +38,7 @@ public class CardShuffling {
         }
     }
 
-    public Card dealCard() {
+    public static Card dealCard() {
         if (currentCard < deck.length) {
             return deck[currentCard++];
         } else
