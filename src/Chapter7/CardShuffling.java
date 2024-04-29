@@ -91,5 +91,31 @@ public class CardShuffling {
                 }
             }
         }
+        if(count == 4) {
+            return true;
+        }else {
+            return false;
+        }
     }
+    public boolean hasThreeKind(Card[] array) {
+        String temp, temp2, temp3;
+
+        for(int first = 0; first < array.length; first++) {
+
+            temp = array[first].getFace();
+
+            for(int next = 0; next < array.length; next++) {
+
+                temp2 = array[next].getFace();
+
+                for(int last = 0; last < array.length; last++) {
+
+                    temp3 = array[last].getFace();
+
+                    if(first == next  || first == last || next == last)
+                        continue;
+
+
+                    if(temp == temp2 && temp == temp3)
+                        return true;
 }
