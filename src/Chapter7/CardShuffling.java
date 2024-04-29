@@ -65,5 +65,10 @@ public class CardShuffling {
                 }
             }
         }
+        if(count == 2) {
+            return true;
+        }else{
+                return false;
+        }
     }
 }
