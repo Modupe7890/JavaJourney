@@ -71,4 +71,25 @@ public class CardShuffling {
                 return false;
         }
     }
+    public boolean twoPair(Card[] array) {
+        String temp, temp2;
+        int count = 0;
+        for (int first = 0; first < array.length; first++) {
+
+            temp = array[first].getFace();
+
+            for (int rest = 0; rest < array.length; rest++) {
+
+                temp2 = array[rest].getFace();
+
+                if (rest == first) {
+                    continue;
+
+                    if (temp == temp2) {
+                        count++;
+                    }
+                }
+            }
+        }
+    }
 }
