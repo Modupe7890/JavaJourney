@@ -10,7 +10,7 @@ public class Time1Test {
         System.out.println();
 
         // change time and output updated time
-        time.setTime(13, 27, 6);
+        time.setTime(12, 55, 6);
         displayTime("After calling setTime", time);
         System.out.println();
 
