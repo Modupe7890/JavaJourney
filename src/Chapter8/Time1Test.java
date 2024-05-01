@@ -29,6 +29,7 @@ public class Time1Test {
         System.out.printf("%s%nUniversal time: %s%nStandard time: %s%n",
                 header, t.toUniversalString(), t.toString());
         header, t.toUniversalString(), t.toString());
+        header, t.toUniversalString(), t.toString());
 
     }
 }
