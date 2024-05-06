@@ -1,5 +1,5 @@
 package Chapter8;
-
+// this used implicitly and explicitly to refer to members of an object.
 public class ThisTest {
     public static void main(String[] args) {
         SimpleTime time = new SimpleTime(15, 30, 19);
@@ -18,6 +18,7 @@ class  SimpleTime {
     }
 
     public String buildString(){
-        return String.format("%24s: %s%n%24s: %s",)
+        return String.format("%24s: %s%n%24s: %s","this.toUniversalString()",
+                this.toUniversalString(), "toUniversalString", toUniversalString);
     }
 }
