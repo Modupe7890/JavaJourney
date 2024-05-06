@@ -6,6 +6,7 @@ public class ThisTest {
         System.out.println(time.buildString());
     }
 }
+// class SimpleTime demonstrates the "this" reference
 class  SimpleTime {
     private int hour;
     private int minute;
