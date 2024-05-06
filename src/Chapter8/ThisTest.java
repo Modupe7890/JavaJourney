@@ -14,6 +14,10 @@ class  SimpleTime {
     public SimpleTime(int hour, int minute, int second){
         this.hour = hour;
         this.minute = minute;
+        this.second = second;
+    }
 
+    public String buildString(){
+        return String.format("%24s: %s%n%24s: %s",)
     }
 }
