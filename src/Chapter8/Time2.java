@@ -83,4 +83,17 @@ public class Time2 {
         }
         this.second = second;
     }
+    // Get Methods
+    // get hour value
+    public int getHour(){
+         return hour;
+    }
+    // get minute value
+    public int getMinute() {
+        return minute;
+    }
+    // get second value
+    public int getSecond(){
+        return second;
+    }
 }
