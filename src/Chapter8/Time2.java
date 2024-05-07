@@ -17,6 +17,7 @@ public class Time2 {
     }
     // Time2 constructor: hour and minute supplied, second defaulted to 0
     public Time2(int hour, minute){
-        this()
+        this(hour, minute, 0);
     }
+
 }
