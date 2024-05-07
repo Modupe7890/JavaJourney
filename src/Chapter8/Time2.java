@@ -28,5 +28,14 @@ public class Time2 {
 
         if (second < 0 || second >= 60)
             throw new IllegalArgumentException("second must be 0-59");
+
+        this.hour = hour;
+        this.minute = minute;
+        this.second = second;
+    }
+    // Time2 constructor: another Time2 object supplied
+    public Time2(Time2 time ){
+        // invoke constructor with three arguments
+        this(time.getHour(), time.getMinute(), time.getSecond());
     }
 }
