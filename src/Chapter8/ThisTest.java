@@ -29,6 +29,6 @@ class  SimpleTime {
 
     // convert to String in universal-time format (HH:MM:SS)
     public String toUniversalString(){
-        return String.format("%02d:%02d:%02d")
+        return String.format("%02d:%02d:%02d", this.hour, this.minute, this.second);
     }
 }
