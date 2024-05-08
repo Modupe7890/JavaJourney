@@ -108,5 +108,6 @@ public class Time2 {
         getMinute(), getSecond(), (getHour() < 12 ? "AM" : "PM"));
         getMinute(), getSecond(), (getHour() < 12 ? "AM" : "PM"));
         getMinute(), getSecond(), (getHour() < 12 ? "AM" : "PM"));
+        getMinute(), getSecond(), (getHour() < 12 ? "AM" : "PM"));
     }
 }
