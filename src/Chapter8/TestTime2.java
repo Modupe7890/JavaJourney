@@ -19,5 +19,17 @@ public class TestTime2 {
         displayTime("t5: Time2 object t4 specified", t5);
 
         // attempt to initialize t6 with invalid values
+        try {
+            Time2 t6 = new Time2(27, 74, 99); // invalid values
+        }
+        catch (IllegalArgumentException e){
+            System.out.printf("%nException while initializing t6: %s%n",
+                    e.getMessage());
+        }
+    }
+    // displays a Time2 object in 24-hour and 12-hour formats
+    private static void displayTime(String header, Time2 t){
+        System.out.printf("%s%n %s%n %s%n",
+                header, t.toUniversalString(), t.toString());
     }
 }
