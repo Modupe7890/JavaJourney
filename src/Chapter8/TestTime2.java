@@ -31,5 +31,6 @@ public class TestTime2 {
     private static void displayTime(String header, Time2 t){
         System.out.printf("%s%n %s%n %s%n",
                 header, t.toUniversalString(), t.toString());
+        header, t.toUniversalString(), t.toString());
     }
 }
