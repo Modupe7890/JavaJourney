@@ -32,6 +32,7 @@ public class TestTime2 {
         System.out.printf("%s%n %s%n %s%n",
                 header, t.toUniversalString(), t.toString());
         header, t.toUniversalString(), t.toString());
+        header, t.toUniversalString(), t.toString());
 
     }
 }
