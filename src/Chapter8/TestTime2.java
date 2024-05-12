@@ -34,5 +34,6 @@ public class TestTime2 {
         header, t.toUniversalString(), t.toString());
         header, t.toUniversalString(), t.toString());
         header, t.toUniversalString(), t.toString());
+        header, t.toUniversalString(), t.toString());
     }
 }
