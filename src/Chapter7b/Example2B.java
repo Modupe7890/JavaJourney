@@ -16,7 +16,7 @@ public class Example2B {
         {
             String s = reader.readLine();
             list[i] = Integer.parseInt(s);
+            System.out.println(Arrays.toString(list));
         }
-        System.out.println(Arrays.toString(list));
     }
 }
