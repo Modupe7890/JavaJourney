@@ -3,7 +3,11 @@ package Chapter7b;
 public class ArrayList {
     public static void main(String[] args) {
 
-        String[] list = new String [10];
-        System.out.println("list");
+        int[] numbers = new int[10];
+
+        for(int i = 0; i < numbers.length; i++){
+            numbers[i] = i + 1;
+        }
+
     }
 }
