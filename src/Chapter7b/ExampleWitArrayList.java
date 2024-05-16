@@ -13,7 +13,8 @@ public class ExampleWitArrayList {
 
         //Read Strings from the keyboard
 
-        ArrayList&ltString[]> list = new ArrayList&ltString>();
+
+        ArrayList&ltString> list = new ArrayList&ltString>();
 
         for(int i = 0; i < 10; i++){
             String s = reader.readLine();
