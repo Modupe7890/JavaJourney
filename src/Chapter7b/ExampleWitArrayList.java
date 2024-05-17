@@ -25,6 +25,7 @@ public class ExampleWitArrayList {
             int j = list.size() - i - 1;
             System.out.println( list.get(j) );
             System.out.println( list.get(j) );
+            System.out.println( list.get(j) );
         }
     }
 }
