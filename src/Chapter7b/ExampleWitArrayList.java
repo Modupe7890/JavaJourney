@@ -21,15 +21,9 @@ public class ExampleWitArrayList {
             list.add(s);
         }
         // Display the content of the array
-        for (int i = 0; i < list.size(); i++){
+        for (int i = 0; i < list.size(); i++) {
             int j = list.size() - i - 1;
-            System.out.println( list.get(j) );
-            System.out.println( list.get(j) );
-            System.out.println( list.get(j) );
-            System.out.println( list.get(j) );
-            System.out.println( list.get(j) );
-            System.out.println( list.get(j) );
-            System.out.println( list.get(j) );
+            System.out.println(list.get(j));
         }
     }
 }
