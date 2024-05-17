@@ -14,7 +14,7 @@ public class ExampleWitArrayList {
         //Read Strings from the keyboard
 
 
-        ArrayList&ltString> list = new ArrayList&ltString>();
+        ArrayList<String> list = new ArrayList<String>();
 
         for(int i = 0; i < 10; i++){
             String s = reader.readLine();
