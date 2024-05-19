@@ -12,5 +12,6 @@ public class ExampleB {
         }
         System.out.println(Arrays.toString(numbers));
         System.out.println(Arrays.toString(numbers));
+        System.out.println(Arrays.toString(numbers));
     }
 }
