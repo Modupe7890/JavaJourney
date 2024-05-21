@@ -17,5 +17,6 @@ public class Addition {
         sum = number1 + number2;
         System.out.printf("Sum = %d%n", sum);
         System.out.printf("Sum = %d%n", sum);
+        System.out.printf("Sum = %d%n", sum);
     }
 }
