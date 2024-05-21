@@ -18,5 +18,6 @@ public class Addition {
         System.out.printf("Sum = %d%n", sum);
         System.out.printf("Sum = %d%n", sum);
         System.out.printf("Sum = %d%n", sum);
+        System.out.printf("Sum = %d%n", sum);
     }
 }
