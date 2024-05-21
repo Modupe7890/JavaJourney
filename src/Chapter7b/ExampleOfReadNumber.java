@@ -18,4 +18,5 @@ public class ExampleOfReadNumber {
         }
         System.out.println(list);
     }
+
 }
